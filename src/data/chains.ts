@@ -914,7 +914,7 @@ const chains = [
   },
   {
     name: "Morph",
-    infoURL: "https://morphl2.io",
+    infoURL: "https://morph.network",
     chainId: 2818,
     nativeCurrency: {
       name: "Ether",
@@ -2355,6 +2355,17 @@ const chains = [
     chain: "ETH",
   },
   {
+    name: "Crynux on RH",
+    infoURL: "https://crynux.io",
+    chainId: 18896215,
+    nativeCurrency: {
+      name: "Crynux",
+      symbol: "CNX",
+      decimals: 18,
+    },
+    chain: "ETH",
+  },
+  {
     name: "DBK Chain",
     infoURL: "https://docs.dbkchain.io",
     chainId: 20240603,
@@ -2364,6 +2375,17 @@ const chains = [
       decimals: 18,
     },
     chain: "DBK Chain",
+  },
+  {
+    name: "BB84",
+    infoURL: "https://bb84.com",
+    chainId: 42069000,
+    nativeCurrency: {
+      name: "Ether",
+      symbol: "ETH",
+      decimals: 18,
+    },
+    chain: "ETH",
   },
   {
     name: "Aquachain",
